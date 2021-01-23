@@ -27,17 +27,6 @@ export default {
         }
         return temp;
 
-      }),
-      sortedIncome = computed(() => {
-        let temp = [];
-
-        temp = state.income.sort(function(a,b){
-          return a.date - b.date;
-
-        });
-
-        return temp;
-
       })
     });
 
@@ -58,8 +47,8 @@ export default {
 
     return {
       Header,
-      Form,
       IncomeList,
+      Form,
       state,
       AddIncome
     }

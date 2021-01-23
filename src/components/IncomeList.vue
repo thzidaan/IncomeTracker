@@ -1,6 +1,6 @@
 <template>
   <div class="income-list">
-    <IncomeItem v-for="data in state.sortedIncome" :key="data.id" :income="data"/> 
+    <IncomeItem v-for="data in state.income" :key="data.id" :income="data"/> 
   </div>
 </template>
 
@@ -13,6 +13,7 @@ export default {
         state: Object
     },
     setup(){
+        
         return{
             IncomeItem
         }
