@@ -11,6 +11,11 @@ import IncomeItem from './IncomeItem';
 export default {
     props : {
         state: Object
+    },
+    setup(){
+        return{
+            IncomeItem
+        }
     }
 
 }
