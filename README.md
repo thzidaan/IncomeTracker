@@ -1,4 +1,4 @@
-# vue-income
+# Income Tracker
 
 ## Project setup
 ```
